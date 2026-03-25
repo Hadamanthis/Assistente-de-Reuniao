@@ -1,7 +1,8 @@
 import sys
 
 def ler_transcricao():
-    caminho = input('> Digite o caminho até o arquivo contendo a transcrição\n')
+    print('> Olá, me chamo Teresa, sua assistente de reuniões online. Vamos começar')
+    caminho = input('> Por favor, digite o caminho até o arquivo contendo a transcrição da reunião.\n> ')
 
     try:
         with open(caminho, 'r', encoding='utf-8') as f:
